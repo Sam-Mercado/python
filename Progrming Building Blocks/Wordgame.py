@@ -1,0 +1,15 @@
+print('Please enter the following:')
+print()
+#wordsinput 
+adjective= input('Adjective:')
+animal= input('Animal: ')
+verb= input('Verb: ')
+exclamation= input('Exclamation: ')
+verb1= input("Verb: ")
+verb2= input("Verb: ")
+#story, will be printed:
+print("\n Your story:")
+print()
+print(f'The other day, I was really in trouble. It all started when I saw a very {adjective} {animal} {verb} down the hallway.') 
+print(f'"{exclamation.title()}!!" I yelled. But all I could think to do was to {verb1} over and over.')
+print(f'Miraculously, that caused it to stop, but not before it tried to {verb2} right in front of my family.') 
